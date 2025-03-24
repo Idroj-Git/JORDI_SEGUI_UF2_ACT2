@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">JordiS_AngelA_PianoTime</string>
+    <string name="tecla_c4">Tecla C4</string>
+    <string name="tecla_c_2">Tecla C#2</string>
+    <string name="tecla_d_2">Tecla D#2</string>
+    <string name="tecla_f_2">Tecla F#2</string>
+    <string name="tecla_g_2">Tecla G#2</string>
+    <string name="tecla_a_2">Tecla A#2</string>
+    <string name="tecla_c_3">Tecla C#3</string>
+    <string name="tecla_d_3">Tecla D#3</string>
+    <string name="tecla_f_3">Tecla F#3</string>
+    <string name="tecla_g_3">Tecla G#3</string>
+    <string name="tecla_a_3">Tecla A#3</string>
+    <string name="tecla_b3">Tecla B3</string>
+    <string name="tecla_a3">Tecla A3</string>
+    <string name="tecla_g3">Tecla G3</string>
+    <string name="tecla_f3">Tecla F3</string>
+    <string name="tecla_e3">Tecla E3</string>
+    <string name="tecla_d3">Tecla D3</string>
+    <string name="tecla_c3">Tecla C3</string>
+    <string name="tecla_b2">Tecla B2</string>
+    <string name="tecla_a2">Tecla A2</string>
+    <string name="tecla_g2">Tecla G2</string>
+    <string name="tecla_f2">Tecla F2</string>
+    <string name="tecla_e2">Tecla E2</string>
+    <string name="tecla_d2">Tecla D2</string>
+    <string name="tecla_c2">Tecla C2</string>
 </resources>

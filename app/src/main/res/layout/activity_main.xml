@@ -1,47 +1,300 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:gravity="center"
-    android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:id="@+id/key_C2"
-            android:text="@string/app_name"
-            android:background="@drawable/teclanegra"
-            android:contentDescription="C#2"
-            />
-
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/key_CS2"
-            android:text="@string/app_name"
-            android:background="@drawable/teclanegra"
-            android:contentDescription="C#2"
-            />
-
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="200dp"
-            android:id="@+id/key_D2"
-            android:text="@string/app_name"
-            android:background="@drawable/teclanegra"
-            android:contentDescription="C#2"
-            />
+    android:background="@android:color/black">
 
 
-    </LinearLayout>
+    <ImageButton
+        android:id="@+id/keyC2"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_c2"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+    <ImageButton
+        android:id="@+id/keyD2"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_d2"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyC2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyE2"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_e2"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyD2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyF2"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_f2"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyE2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyG2"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_g2"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyF2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyA2"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_a2"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyG2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyB2"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_b2"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyA2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyC3"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_c3"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyB2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyD3"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_d3"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyC3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyE3"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_e3"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyD3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyF3"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_f3"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyE3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyG3"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_g3"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyF3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/keyA3"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_a3"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyG3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyB3"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_b3"
+        android:src="@drawable/white_state"
+        app:layout_constraintStart_toEndOf="@id/keyA3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyC4"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_c4"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_state"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/keyB3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyCS2"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_c_2"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyC2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyDS2"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_d_2"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyD2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyFS2"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_f_2"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyF2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyGS2"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_g_2"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyG2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyAS2"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_a_2"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyA2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyCS3"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_c_3"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyC3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyDS3"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_d_3"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyD3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyFS3"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_f_3"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyF3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyGS3"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_g_3"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyG3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyAS3"
+        android:layout_width="48dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-22dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla_a_3"
+        android:src="@drawable/black_state"
+        app:layout_constraintStart_toEndOf="@id/keyA3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
